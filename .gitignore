@@ -1,0 +1,31 @@
+# --- Environment Secrets ---
+.env
+
+# --- Virtual Environments ---
+venv/
+env/
+.venv/
+bin/
+include/
+lib/
+lib64/
+share/
+pyvenv.cfg
+miniforge3/
+
+# --- Python Cache & Compiled Files ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- OpenCV/GUI specific ---
+*.jpg
+*.png
+*.mp4
+*.avi
